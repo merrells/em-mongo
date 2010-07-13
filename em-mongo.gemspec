@@ -23,6 +23,6 @@ Gem::Specification.new do |s|
   s.summary = 'EventMachine driver for MongoDB.'
 
   s.add_dependency("eventmachine", ['>= 0.12.10'])
-  s.add_dependency("bson", ['>= 0.20.1'])
+  s.add_dependency("bson", ['>= 1.0.4'])
 
 end
